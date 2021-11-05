@@ -17,6 +17,8 @@
 		9119987B27347FC5006099A8 /* MeliExampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119987A27347FC5006099A8 /* MeliExampleTestUITests.swift */; };
 		9119988C273486E4006099A8 /* CalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119988B273486E4006099A8 /* CalculatorTest.swift */; };
 		9119989127348803006099A8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119989027348803006099A8 /* Calculator.swift */; };
+		911998962734B6D2006099A8 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911998952734B6D2006099A8 /* CreditCard.swift */; };
+		9119989B2734C85D006099A8 /* CreditCardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119989A2734C85D006099A8 /* CreditCardTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9119987C27347FC5006099A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9119988B273486E4006099A8 /* CalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTest.swift; sourceTree = "<group>"; };
 		9119989027348803006099A8 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		911998952734B6D2006099A8 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		9119989A2734C85D006099A8 /* CreditCardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				9119986127347FC4006099A8 /* Assets.xcassets */,
 				9119986327347FC4006099A8 /* LaunchScreen.storyboard */,
 				9119986627347FC4006099A8 /* Info.plist */,
+				911998952734B6D2006099A8 /* CreditCard.swift */,
 			);
 			path = MeliExampleTest;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				9119986F27347FC5006099A8 /* MeliExampleTestTests.swift */,
 				9119988B273486E4006099A8 /* CalculatorTest.swift */,
 				9119987127347FC5006099A8 /* Info.plist */,
+				9119989A2734C85D006099A8 /* CreditCardTest.swift */,
 			);
 			path = MeliExampleTestTests;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9119985D27347FC2006099A8 /* ViewController.swift in Sources */,
+				911998962734B6D2006099A8 /* CreditCard.swift in Sources */,
 				9119989127348803006099A8 /* Calculator.swift in Sources */,
 				9119985927347FC2006099A8 /* AppDelegate.swift in Sources */,
 				9119985B27347FC2006099A8 /* SceneDelegate.swift in Sources */,
@@ -276,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9119987027347FC5006099A8 /* MeliExampleTestTests.swift in Sources */,
+				9119989B2734C85D006099A8 /* CreditCardTest.swift in Sources */,
 				9119988C273486E4006099A8 /* CalculatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
