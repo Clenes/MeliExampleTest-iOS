@@ -47,10 +47,45 @@ class CreditCardTest: XCTestCase {
      el formato: **** **** **** 1234 (siendo 1234 los ultimos dígitos de la tarjeta)
      **/
     
+    
+    func testMaxCount() {
+        let maxCount = creditCard.setDigits(value: "12345678901234567")
+        XCTAssertFalse(maxCount)
+    }
+    
+    func testCheckDigitsCharacterNotNumeric() {
+        let result = creditCard.setDigits(value: "123456789012345A")
+        
+        XCTAssertFalse(result)
+    }
+    
+    func testCheckDigitsFormat() {
+        let expectation = "**** **** **** 3456"
+        creditCard.setDigits(value: "1234567890123456")
+        let result = creditCard.digits
+        XCTAssertEqual(expectation, result)
+    }
+    
+    
     /** PROBLEMA 2
      * Validar la fecha de expiracion con formato MM/yy
      * Validar que la fecha no este expirada
      * Validar que la fecha ya este expirada
      **/
+    
+    
+    func testFormatExpirationDate() {
+        let expirationDate = creditCard.setExpirationDate(date: "06/19/3434343")
+        XCTAssertFalse(expirationDate)
+    }
+    func testNoExpirationDate() {
+        let expirationDate = creditCard.setExpirationDate(date: "12/21")
+        XCTAssertTrue(expirationDate)
+    }
+    // ya experiró
+    func testExpirationDate() {
+        let expirationDate = creditCard.setExpirationDate(date: "06/19")
+        XCTAssertFalse(expirationDate)
+    }
     
 }

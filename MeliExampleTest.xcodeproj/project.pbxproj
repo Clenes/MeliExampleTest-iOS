@@ -110,12 +110,12 @@
 				9119985827347FC2006099A8 /* AppDelegate.swift */,
 				9119985A27347FC2006099A8 /* SceneDelegate.swift */,
 				9119989027348803006099A8 /* Calculator.swift */,
+				911998952734B6D2006099A8 /* CreditCard.swift */,
 				9119985C27347FC2006099A8 /* ViewController.swift */,
 				9119985E27347FC2006099A8 /* Main.storyboard */,
 				9119986127347FC4006099A8 /* Assets.xcassets */,
 				9119986327347FC4006099A8 /* LaunchScreen.storyboard */,
 				9119986627347FC4006099A8 /* Info.plist */,
-				911998952734B6D2006099A8 /* CreditCard.swift */,
 			);
 			path = MeliExampleTest;
 			sourceTree = "<group>";
@@ -125,8 +125,8 @@
 			children = (
 				9119986F27347FC5006099A8 /* MeliExampleTestTests.swift */,
 				9119988B273486E4006099A8 /* CalculatorTest.swift */,
-				9119987127347FC5006099A8 /* Info.plist */,
 				9119989A2734C85D006099A8 /* CreditCardTest.swift */,
+				9119987127347FC5006099A8 /* Info.plist */,
 			);
 			path = MeliExampleTestTests;
 			sourceTree = "<group>";
