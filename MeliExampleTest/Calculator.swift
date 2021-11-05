@@ -2,7 +2,20 @@
 //  Calculator.swift
 //  MeliExampleTest
 //
-//  Created by Carolain Lenes on 4/11/21.
-//
 
 import Foundation
+
+import UIKit
+
+class Calculator {
+    
+    func add (numberOne:Int, numberTwo:Int) -> Int {
+        return numberOne+numberTwo
+    }
+    
+    func substract (numberOne:Int, numberTwo:Int) -> Int {
+        return numberOne-numberTwo
+    }
+    
+}
+
